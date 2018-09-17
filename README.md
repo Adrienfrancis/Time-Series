@@ -1,1 +1,3 @@
-Time Series
+Real Estate Price Forecasting of counties in Oregon.
+All_Pred_Columbia, All_Pred_Washington : Data for Influencing factors of real estate market (Inflation, CPI, Mortgage rates, Median Income, Population, Inventory of Houses, Sales Volumes, Number of New Listings and Prime Rates) is obtained from various government and real-estate websites. Code Contains Time Series code in Python of influencing factors in the real-estate market. The influencing factors are predicted 12 months ahead of time using ARMA models.              
+Automated_Priceforecast_Modelbuilding: Contains code for extracting data from MongoDB real-estate database and adding to the existing code in order to predict the median price of properties according to zipcode and property type in major counties of Oregon. TimeSeries and Support Vector Regression is used for the Price Forecasting Project using Python.
